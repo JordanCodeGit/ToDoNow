@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Splash"
     android:orientation="vertical"
     android:background="@drawable/bg2">
 
@@ -127,12 +127,12 @@
 
     <Button
         android:id="@+id/nextBtn"
-        android:layout_width="128dp"
+        android:layout_width="109dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="226dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="75dp"
         android:background="@drawable/black_rectangle"
         android:elevation="1dp"
         android:fontFamily="@font/poppins_bold"

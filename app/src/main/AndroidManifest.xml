@@ -9,11 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoNow">
-        <activity android:name=".Login"></activity>
+        <activity android:name=".Delete"></activity>
+        <activity android:name=".Update" />
+        <activity android:name=".AddItem" />
+        <activity android:name=".ToDoAdapter" />
+        <activity android:name=".ToDo" />
+        <activity android:name=".View" />
+        <activity android:name=".Login" />
         <activity android:name=".Dashboard" />
         <activity android:name=".SignUp" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:exported="true"
             android:label="home">
             <intent-filter>

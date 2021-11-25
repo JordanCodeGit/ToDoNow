@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg2"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Splash">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -104,8 +104,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="226dp"
-        android:layout_marginTop="173dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="153dp"
         android:background="@drawable/black_rectangle"
         android:elevation="3dp"
         android:fontFamily="@font/poppins_bold"

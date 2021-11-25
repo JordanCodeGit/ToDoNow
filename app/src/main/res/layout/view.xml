@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Splash"
     android:orientation="vertical"
     android:background="@drawable/bg3">
 
@@ -71,7 +71,7 @@
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_hero"
+                android:id="@+id/rv_todo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:listitem="@layout/todo_item" />
@@ -85,7 +85,7 @@
         android:layout_width="365dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="1dp">
 
         <com.getbase.floatingactionbutton.FloatingActionsMenu
             android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                 app:fab_colorNormal="#476072"
                 app:fab_size="mini"
                 app:fab_title="Add"
-                app:fab_icon="@drawable/ic_add"/>
+                app:fab_icon="@drawable/ic_edit"/>
 
         </com.getbase.floatingactionbutton.FloatingActionsMenu>
 

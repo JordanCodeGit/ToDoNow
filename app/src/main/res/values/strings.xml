@@ -14,9 +14,13 @@
 
 
     <string name="Name">Hi! Seaaralee</string>
-    <string name="Desc">Whats ur focus for Today?</string>
+    <string name="Desc">Whats ur focus for today?</string>
+    <string name="Update">Which todo to update?</string>
+    <string name="Delete">Which todo to delete?</string>
     <string name="Todo">To-do! Now</string>
     <string name="List">List To-do</string>
     <string name="Add">Add your todo. . .</string>
     <string name="addBtn">Add</string>
+    <string name="updateBtn">Update</string>
+    <string name="deleteBtn">Delete</string>
 </resources>
