@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">To-do! Now</string>
+    <string name="createAn">CREATE A PERSONAL ACCOUNT</string>
+    <string name="loginTo">LOGIN TO A PERSONAL ACCOUNT</string>
+    <string name="enterUsers">Enter Username</string>
+    <string name="enterUsersTxt">Username</string>
+    <string name="email">Email</string>
+    <string name="emailTxt">Email</string>
+    <string name="password">Enter Password</string>
+    <string name="enterPasswordTxt">Password</string>
+    <string name="Login">Have an Account? Login</string>
+    <string name="SignUp">Dont Have an Account? Sign Up</string>
+    <string name="nextBtn">NEXT</string>
+
+
+    <string name="Name">Hi! Seaaralee</string>
+    <string name="Desc">Whats ur focus for Today?</string>
+    <string name="Todo">To-do! Now</string>
+    <string name="List">List To-do</string>
+    <string name="Add">Add your todo. . .</string>
+    <string name="addBtn">Add</string>
+</resources>

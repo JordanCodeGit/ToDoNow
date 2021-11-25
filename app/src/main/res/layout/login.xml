@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingTop="30dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/loginTo"
+            android:layout_width="300dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="67dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="@string/loginTo"
+            android:textAppearance="@style/loginTo"
+            app:lineHeight="36sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/enterUsers"
+        android:layout_width="142dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:text="@string/enterUsers"
+        android:textAppearance="@style/enterUsers"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/enterUsersTxt"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/white_rectangle"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="Username"
+        android:textAppearance="@style/enterUsersTxt" />
+
+
+    <TextView
+        android:id="@+id/enterPassword"
+        android:layout_width="142dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:text="@string/password"
+        android:textAppearance="@style/enterPassword" />
+
+
+    <EditText
+        android:id="@+id/enterPasswordTxt"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/white_rectangle"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="Password"
+        android:textAppearance="@style/enterPasswordTxt"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/signuphere"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Don't have an account? Sign up here!"
+        android:textColor="#000000"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/black_rectangle"
+        android:elevation="3dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/nextBtn"
+        android:textAppearance="@style/nextBtn"
+        app:backgroundTint="#334257" />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="150dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="top"
+            android:text="@string/Name"
+            android:textAppearance="@style/Name" />
+
+        <TextView
+            android:id="@+id/Desc"
+            android:layout_width="185dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="69dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="top"
+            android:text="@string/Desc"
+            android:textAppearance="@style/Desc" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="481dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg">
+
+        <TextView
+            android:id="@+id/Todo"
+            android:layout_width="100dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="top"
+            android:text="@string/Todo"
+            android:textAppearance="@style/Todo" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="410dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_hero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/todo_item" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonColorNormal="#476072"
+            app:fab_addButtonPlusIconColor="#DDDDDD"
+            app:fab_addButtonSize="mini"
+            app:fab_expandDirection="right"
+            app:fab_labelsPosition="left">
+
+            <com.getbase.floatingactionbutton.AddFloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="#476072"
+                app:fab_size="mini"
+                app:fab_title="Edit"
+                app:fab_icon="@drawable/ic_edit"/>
+
+            <com.getbase.floatingactionbutton.AddFloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="#476072"
+                app:fab_size="mini"
+                app:fab_title="Add"
+                app:fab_icon="@drawable/ic_add"/>
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </LinearLayout>
+
+
+</LinearLayout>
